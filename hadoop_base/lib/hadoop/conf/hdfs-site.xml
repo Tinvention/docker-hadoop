@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>dfs.cluster.administrators</name>
+    <value> hadoopadmin</value>
+  </property>
+  <property>
+    <name>dfs.permissions.superusergroup</name>
+    <value>hadoopadmin</value>
+  </property>
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>mn01:50070</value>
+  </property>
+  <property>
+    <name>dfs.namenode.secondary.http-address</name>
+    <value>mn01:50090</value>
+  </property>
+  <property>
+    <name>dfs.datanode.address</name>
+    <value>0.0.0.0:50010</value>
+  </property>
+    <property>
+    <name>dfs.datanode.http.address</name>
+    <value>0.0.0.0:50075</value>
+  </property>
+  <property>
+    <name>dfs.datanode.ipc.address</name>
+    <value>0.0.0.0:8010</value>
+  </property>
+  <property>
+    <name>dfs.journalnode.http-address</name>
+    <value>0.0.0.0:8480</value>
+  </property>
+</configuration>
